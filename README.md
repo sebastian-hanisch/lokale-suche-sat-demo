@@ -92,7 +92,7 @@ Die Richtung reproduziert sich: bei n = 150 ist probSAT in allen drei Zellen gü
 
 ## Verifikation
 
-Die Suite hat 198 Tests (`pytest --collect-only -q tests`).
+Die Suite hat 203 Tests (`pytest --collect-only -q tests`).
 
 - **Kern** (`tests/test_algorithm.py`, 29 Tests): das Handbeispiel von Hand (neun Modelle, Zufallsstrom für Seed 20, Gewichte 1,2742 / 0,2285, Lesezugriffe 32 / 44 / 54, Modell 10000); je Umdrehung eine **Neuberechnung** der verletzten Klauseln, der Break-Werte und der Gewichte aus der Belegung (die Zähler der wahren Literale und die Liste der verletzten Klauseln stimmen nach jeder Umdrehung); Lesezugriffe aus den Vorkommen; Gleichlauf mit der Kern-Kopie; Determinismus; Gewichte monoton fallend in break; Auswahlhäufigkeit bei 100.000 Ziehungen innerhalb 1 % der Sollverteilung; Umnummerieren der Variablen; gemeldete Modelle erfüllen alle Klauseln, unerfüllbare Formeln werden nie gelöst.
 - **Orakel** (`tests/test_oracle_lokale_suche_sat.py`, 31 Tests): Aufzählung aller 2^n Belegungen (n ≤ 12) für Modelle und Erfüllbarkeit gegen CDCL und probSAT; CDCL gegen OR-Tools CP-SAT auf 30 Zufallsformeln (`importorskip`); **probSAT gegen eine naive Neuberechnung** in 25 Läufen (gleiche Umdrehungen, Lesezugriffe und Modelle); Gewichte gegen numpy; Auswahlverteilung gegen `numpy.random.default_rng(...).choice`. Beim Bau lief dieselbe Prüfung als Scratch-Lauf mit 240 Zufallsformeln (n = 20 bis 68, m/n = 3,8 bis 4,5, davon 163 erfüllbar und 77 unerfüllbar): CDCL gegen CP-SAT, probSAT-Modelle gegen Modellprüfung und CP-SAT, probSAT gegen die naive Neuberechnung, Fehler 0 (Scratch-Lauf, nicht im Repo).
@@ -117,6 +117,7 @@ Die Suite hat 198 Tests (`pytest --collect-only -q tests`).
 | `lks_constants.py` | Regler-Grenzen, Aufgaben, Fälle, Farben, Presets |
 | `lks_evaluation.py` | Messreihen, Kennzahlen, Verdikte |
 | `lks_layout.py` | Fester Kopf (Stylesheet) |
+| `lks_live.py` | Live-Knöpfe: Zwischenspeicher (`st.cache_data`, je Einheit) und Fortschrittsanzeige (zählt die fertigen Einheiten) |
 | `lks_messungen.json` | vorgerechnete Messreihen (je Formel CDCL und drei probSAT-Läufe) |
 | `lks_presets.py` | Permalink (Einrasten), Presets (Schnellstart in der Seitenleiste, aktives Preset hervorgehoben), Zufalls-Seed-Button |
 | `lks_scenario.py` | Handbeispiel, Formelfamilien |

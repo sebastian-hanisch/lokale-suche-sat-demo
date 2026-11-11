@@ -119,6 +119,50 @@ def messe_struktur_live(familie: str, groesse: int, anzahl: int, cdcl_budget: in
             "instanzen": [{"seed": 0, "cdcl": c, "probsat": probsat_zeilen(inst, range(seed, seed + anzahl), flips, cb, eps, c["antwort"])}]}
 
 
+# ------------------------------------------------------------------------------------------------------------------------------ Einheiten der Live-Messreihen
+# Jede Einheit ist ein Stück der Messreihe oben, einzeln rechenbar (Zwischenspeicher und Fortschrittsanzeige der App, lks_live.py). `messe_zufall_live` und `messe_struktur_live`
+# bleiben unverändert; die Tests prüfen, dass die aus Einheiten zusammengesetzte Reihe bitgleich dasselbe liefert.
+
+def zufall_einheit(n: int, verhaeltnis: float, index: int, cdcl_budget: int, flips: int, cb: float, eps: float, seed: int) -> dict:
+    """Eine feste Formel der Live-Messreihe auf Zufallsformeln: CDCL und ein probSAT-Lauf (ein Element von `messe_zufall_live(...)["formeln"]`)."""
+    inst = S.zufall_formel(n, verhaeltnis, index)
+    c = cdcl_zeile(inst, cdcl_budget)
+    return {"seed": S.FORMEL_SEED_START + index, "cdcl": c, "probsat": probsat_zeilen(inst, (seed,), flips, cb, eps, c["antwort"])}
+
+
+def zufall_aufbauen(n: int, verhaeltnis: float, formeln: list) -> dict:
+    """Setzt die Live-Messreihe aus den Einheiten zusammen (wie `messe_zufall_live`)."""
+    return {"n": n, "verhaeltnis": verhaeltnis, "m": S.klauselzahl(n, verhaeltnis), "formeln": list(formeln)}
+
+
+def rampen_einheit(groesse: int, gs: int, cdcl_budget: int, flips: int, cb: float, eps: float, seed: int) -> dict:
+    """Ein fester Konfliktgraph (Zufalls-Seed `gs`) der Live-Messreihe auf Rampen: CDCL und drei probSAT-Läufe."""
+    inst = S.rampen(groesse, gs)
+    c = cdcl_zeile(inst, cdcl_budget)
+    return {"seed": gs, "cdcl": c, "probsat": probsat_zeilen(inst, range(seed, seed + 3), flips, cb, eps, c["antwort"])}
+
+
+def schur_cdcl_einheit(familie: str, cdcl_budget: int) -> dict:
+    """Der CDCL-Lauf der Schur-Instanz einer Live-Messreihe."""
+    n, k = C.SCHUR_INSTANZEN[familie]
+    return cdcl_zeile(S.schur(n, k), cdcl_budget)
+
+
+def schur_probsat_einheit(familie: str, cdcl_antwort, seed: int, flips: int, cb: float, eps: float) -> dict:
+    """Ein probSAT-Lauf auf der Schur-Instanz (eine Zeile von `probsat_zeilen`); `cdcl_antwort` dient nur der Gegenprobe."""
+    n, k = C.SCHUR_INSTANZEN[familie]
+    return probsat_zeilen(S.schur(n, k), (seed,), flips, cb, eps, cdcl_antwort)[0]
+
+
+def struktur_aufbauen(familie: str, groesse: int, einheiten: list) -> dict:
+    """Setzt die Live-Messreihe einer Strukturaufgabe aus den Einheiten zusammen (wie `messe_struktur_live`). Rampen: `einheiten` = Elemente aus `rampen_einheit`;
+    Schur: `einheiten` = [CDCL-Zeile, probSAT-Zeile, probSAT-Zeile, …]."""
+    if familie.startswith("rampen"):
+        return {"label": f"Aufträge auf Rampen (3-Färbung, n = {groesse} Aufträge, Grad 4,5)", "instanzen": list(einheiten)}
+    n, k = C.SCHUR_INSTANZEN[familie]
+    return {"label": f"Schur k = {k}, n = {n}", "instanzen": [{"seed": 0, "cdcl": einheiten[0], "probsat": list(einheiten[1:])}]}
+
+
 # --------------------------------------------------------------------------------------------------------------------------------- Kennzahlen
 @dataclass(frozen=True)
 class Zelle:

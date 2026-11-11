@@ -15,6 +15,7 @@ import streamlit as st
 import lks_algorithm as A
 import lks_constants as C
 import lks_evaluation as E
+import lks_live as L
 import lks_presets as P
 import lks_scenario as S
 import lks_visualization as V
@@ -36,16 +37,6 @@ def _schrittlauf(formel, klein_n, klein_seed, seed, flips, cb, eps):
     inst = S.hand_formel() if formel == C.FORMEL_HAND else S.kleine_formel(klein_n, klein_seed)
     lauf = A.probsat_lauf(inst.n, inst.klauseln, min(flips, C.MAX_SCHRITT_FLIPS), seed, cb=cb, eps=eps, spur=True)
     return {"n": inst.n, "klauseln": [tuple(k) for k in inst.klauseln], "lauf": lauf, "modelle": A.alle_modelle(inst.n, inst.klauseln)}
-
-
-@st.cache_data(show_spinner=False)
-def _live_zufall(n, verhaeltnis, anzahl, konflikte, flips, cb, eps, seed):
-    return E.messe_zufall_live(n, verhaeltnis, anzahl, konflikte, flips, cb, eps, seed)
-
-
-@st.cache_data(show_spinner=False)
-def _live_struktur(familie, groesse, anzahl, konflikte, flips, cb, eps, seed):
-    return E.messe_struktur_live(familie, groesse, anzahl, konflikte, flips, cb, eps, seed)
 
 
 @st.cache_data(show_spinner=False)
@@ -328,9 +319,8 @@ with st.expander("🔁 Live nachrechnen (nur bis n = 150)"):
     live_n = int(l1.slider("Variablen n (live)", C.LIVE_N[0], C.LIVE_N[1], value=C.DEFAULT_LIVE_N, step=C.LIVE_N[2], key="live_n"))
     live_anz = int(l2.slider("Zahl der Formeln", *C.LIVE_ANZAHL[:2], value=C.LIVE_ANZAHL[2], key="live_anzahl"))
     sig = (live_n, zufall_v, live_anz, konflikte, flips, cb, eps, seed)
-    if st.button("Messreihe live starten", key="live_go_zufall", help="Je nach Größe und Budgets bis zu etwa einer Minute."):
-        with st.spinner("Die Messreihe läuft (bis zu etwa einer Minute) …"):
-            st.session_state["live_zufall"] = {"sig": sig, "daten": _live_zufall(*sig)}
+    if st.button("Messreihe live starten", key="live_go_zufall", help="Ein Fortschrittsbalken zählt die fertigen Formeln; ein zweiter Klick mit denselben Einstellungen antwortet aus dem Zwischenspeicher."):
+        st.session_state["live_zufall"] = {"sig": sig, "daten": L.zufall(*sig)}
     g = st.session_state.get("live_zufall")
     if g and g["sig"] == sig:
         d = g["daten"]
@@ -380,9 +370,8 @@ with st.expander("🔁 Live nachrechnen (kleiner als die Referenz)"):
         live_gr = 0
         live_s_anz = int(s2.slider("Zahl der probSAT-Läufe", *C.LIVE_SCHUR_LAEUFE[:2], value=C.LIVE_SCHUR_LAEUFE[2], key="live_schur_laeufe"))
     sig = (struktur, live_gr, live_s_anz, konflikte, flips, cb, eps, seed)
-    if st.button("Messreihe live starten", key="live_go_struktur", help="Je nach Aufgabe und Budgets bis zu etwa einer Minute."):
-        with st.spinner("Die Messreihe läuft (bis zu etwa einer Minute) …"):
-            st.session_state["live_struktur"] = {"sig": sig, "daten": _live_struktur(*sig)}
+    if st.button("Messreihe live starten", key="live_go_struktur", help="Ein Fortschrittsbalken zählt die fertigen Graphen bzw. Läufe; ein zweiter Klick mit denselben Einstellungen antwortet aus dem Zwischenspeicher."):
+        st.session_state["live_struktur"] = {"sig": sig, "daten": L.struktur(*sig)}
     g = st.session_state.get("live_struktur")
     if g and g["sig"] == sig:
         d = g["daten"]
