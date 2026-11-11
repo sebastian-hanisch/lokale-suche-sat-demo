@@ -1,7 +1,6 @@
 # Lokale Suche gegen CDCL – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-lokale-suche-sat-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-lokale-suche-sat-demo.streamlit.app/)**
 
 Demo der Linie **SAT und Constraint Programming** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Sie steht als **Kontrast** neben dem Konfliktlernen: derselbe Zweck (eine erfüllende Belegung finden), eine andere Bauweise, nämlich **kein Gedächtnis und keine Beweise**. Gezeigt wird probSAT, eine stochastische lokale Suche, an einem Handbeispiel Schritt für Schritt und im Vergleich mit CDCL auf Zufalls-3-SAT als Wachstumsmaß, auf Aufträgen auf Rampen (3-Färbung eines Konfliktgraphen) und auf Schur-Partitionen. Verbunden ist sie mit der Linie der Trajektorien-Metaheuristiken (dieselbe Idee „kleine Änderung, Verschlechterung erlaubt“, dort an Routen).
 
