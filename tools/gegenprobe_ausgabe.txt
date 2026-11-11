@@ -1,0 +1,7 @@
+Gegenprobe: Formel-Seeds 9000 bis 9011, 3 probSAT-Läufe je Formel (Zufalls-Seeds 1 bis 3), cb = 2,3, ε = 0,9, 300.000 Umdrehungen, 20.000 Konflikte
+n = 150, m/n = 4,0: CDCL erfüllbar / unerfüllbar / offen 12 / 0 / 0; probSAT gelöste Läufe 36 von 36 (12 von 12 Formeln); Median Lesezugriffe CDCL 194598.0 (aus 12), probSAT 37989.5 (aus 36)
+n = 150, m/n = 4,2: CDCL erfüllbar / unerfüllbar / offen 8 / 4 / 0; probSAT gelöste Läufe 24 von 36 (8 von 12 Formeln); Median Lesezugriffe CDCL 469078.5 (aus 8), probSAT 46206.0 (aus 24)
+n = 150, m/n = 4,26: CDCL erfüllbar / unerfüllbar / offen 8 / 4 / 0; probSAT gelöste Läufe 24 von 36 (8 von 12 Formeln); Median Lesezugriffe CDCL 561835.0 (aus 8), probSAT 123171.0 (aus 24)
+n = 300, m/n = 4,0: CDCL erfüllbar / unerfüllbar / offen 3 / 0 / 9; probSAT gelöste Läufe 36 von 36 (12 von 12 Formeln); Median Lesezugriffe CDCL 10022604.0 (aus 3), probSAT 220959.0 (aus 36)
+n = 300, m/n = 4,2: CDCL erfüllbar / unerfüllbar / offen 0 / 0 / 12; probSAT gelöste Läufe 30 von 36 (10 von 12 Formeln); Median Lesezugriffe CDCL None (aus 0), probSAT 738799.5 (aus 30)
+n = 300, m/n = 4,26: CDCL erfüllbar / unerfüllbar / offen 0 / 0 / 12; probSAT gelöste Läufe 19 von 36 (7 von 12 Formeln); Median Lesezugriffe CDCL None (aus 0), probSAT 1025351.0 (aus 19)

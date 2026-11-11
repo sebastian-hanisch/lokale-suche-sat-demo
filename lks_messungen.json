@@ -1,0 +1,7021 @@
+{
+ "meta": {
+  "skript": "tools/messungen.py",
+  "cdcl_budget": 20000,
+  "flip_budget": 300000,
+  "cb": 2.3,
+  "eps": 0.9,
+  "cb_alt": 2.06,
+  "probsat_seeds": [
+   1,
+   2,
+   3
+  ],
+  "formel_seeds": [
+   8000,
+   8001,
+   8002,
+   8003,
+   8004,
+   8005,
+   8006,
+   8007,
+   8008,
+   8009,
+   8010,
+   8011
+  ],
+  "rampen_seeds": [
+   500,
+   501,
+   502,
+   503,
+   504,
+   505,
+   506,
+   507,
+   508,
+   509
+  ],
+  "kern": {
+   "cdcl": "832b2c10dfdea62d",
+   "probsat": "8caf126238c62c92",
+   "rng": "5d5d8f45d0e1eddf",
+   "instanzen": "6795de796b66fff8"
+  },
+  "einheit": "Literal-Lesezugriffe (CDCL: gelesene Literale der Propagation; probSAT: Break-Zählung und Umdrehen), nie Sekunden"
+ },
+ "struktur": {
+  "rampen160": {
+   "label": "Aufträge auf Rampen (3-Färbung, n = 160 Aufträge, Grad 4,5)",
+   "instanzen": [
+    {
+     "seed": 500,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 42,
+      "lesezugriffe": 16724
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 163604,
+       "lesezugriffe": 2707305,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 64529,
+       "lesezugriffe": 1049663,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 240912,
+       "lesezugriffe": 4035821,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 4,
+       "geloest": true,
+       "flips": 18017,
+       "lesezugriffe": 301981,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 5,
+       "geloest": true,
+       "flips": 143763,
+       "lesezugriffe": 2362424,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 501,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 151,
+      "lesezugriffe": 52256
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5453210,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5693532,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5425360,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 4,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5509671,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 5,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5492019,
+       "verletzt_am_ende": 7
+      }
+     ]
+    },
+    {
+     "seed": 502,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 31,
+      "lesezugriffe": 8350
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 107514,
+       "lesezugriffe": 1991765,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 48300,
+       "lesezugriffe": 896702,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 26976,
+       "lesezugriffe": 473458,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 4,
+       "geloest": true,
+       "flips": 29312,
+       "lesezugriffe": 515970,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 5,
+       "geloest": true,
+       "flips": 172305,
+       "lesezugriffe": 3042022,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 503,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 163,
+      "lesezugriffe": 65572
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3277,
+       "lesezugriffe": 54398,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 24712,
+       "lesezugriffe": 412682,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 25066,
+       "lesezugriffe": 421599,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 4,
+       "geloest": true,
+       "flips": 59110,
+       "lesezugriffe": 1012593,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 5,
+       "geloest": true,
+       "flips": 83399,
+       "lesezugriffe": 1402061,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 504,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 83,
+      "lesezugriffe": 19818
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5304471,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5320909,
+       "verletzt_am_ende": 11
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5305394,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 4,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5262114,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 5,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5274717,
+       "verletzt_am_ende": 8
+      }
+     ]
+    },
+    {
+     "seed": 505,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 309,
+      "lesezugriffe": 135706
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5147345,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5151705,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5095349,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 4,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5105327,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 5,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5195969,
+       "verletzt_am_ende": 1
+      }
+     ]
+    },
+    {
+     "seed": 506,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 81,
+      "lesezugriffe": 27819
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 9956,
+       "lesezugriffe": 163813,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 56790,
+       "lesezugriffe": 929074,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 21155,
+       "lesezugriffe": 347875,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 4,
+       "geloest": true,
+       "flips": 37636,
+       "lesezugriffe": 632809,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 5,
+       "geloest": true,
+       "flips": 91417,
+       "lesezugriffe": 1522801,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 507,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 210,
+      "lesezugriffe": 87121
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5240148,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5200549,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5206364,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 4,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5283282,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 5,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5215657,
+       "verletzt_am_ende": 6
+      }
+     ]
+    },
+    {
+     "seed": 508,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 86,
+      "lesezugriffe": 27322
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5040407,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 200681,
+       "lesezugriffe": 3350383,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 53426,
+       "lesezugriffe": 909217,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 4,
+       "geloest": true,
+       "flips": 151834,
+       "lesezugriffe": 2655592,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 5,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5142166,
+       "verletzt_am_ende": 5
+      }
+     ]
+    },
+    {
+     "seed": 509,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 337,
+      "lesezugriffe": 147880
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5170947,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5242883,
+       "verletzt_am_ende": 10
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5199798,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 4,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5247761,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 5,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 5218182,
+       "verletzt_am_ende": 4
+      }
+     ]
+    }
+   ]
+  },
+  "schur43_4": {
+   "label": "Schur k = 4, n = 43",
+   "instanzen": [
+    {
+     "seed": 0,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 6,
+      "lesezugriffe": 2835
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35040670,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 226375,
+       "lesezugriffe": 26140384,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 34857262,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 4,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 34977176,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 5,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35079393,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 6,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35000946,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 7,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35000370,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 8,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35130047,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 9,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 34965156,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 10,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 34917912,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 11,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35142568,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 12,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 34821302,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 13,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35108310,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 14,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 34882737,
+       "verletzt_am_ende": 10
+      },
+      {
+       "seed": 15,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35038177,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 16,
+       "geloest": true,
+       "flips": 98728,
+       "lesezugriffe": 11446365,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 17,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 34885005,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 18,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35056492,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 19,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 35118125,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 20,
+       "geloest": true,
+       "flips": 109817,
+       "lesezugriffe": 12842630,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "schur13_3": {
+   "label": "Schur k = 3, n = 13",
+   "instanzen": [
+    {
+     "seed": 0,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 18,
+      "lesezugriffe": 1276
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 49,
+       "lesezugriffe": 1864,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 253,
+       "lesezugriffe": 8763,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1270,
+       "lesezugriffe": 40633,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 4,
+       "geloest": true,
+       "flips": 2608,
+       "lesezugriffe": 85308,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 5,
+       "geloest": true,
+       "flips": 83,
+       "lesezugriffe": 3133,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 6,
+       "geloest": true,
+       "flips": 1529,
+       "lesezugriffe": 48720,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 7,
+       "geloest": true,
+       "flips": 333,
+       "lesezugriffe": 11156,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 8,
+       "geloest": true,
+       "flips": 870,
+       "lesezugriffe": 28967,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 9,
+       "geloest": true,
+       "flips": 573,
+       "lesezugriffe": 18856,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 10,
+       "geloest": true,
+       "flips": 780,
+       "lesezugriffe": 25738,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 11,
+       "geloest": true,
+       "flips": 369,
+       "lesezugriffe": 11929,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 12,
+       "geloest": true,
+       "flips": 23,
+       "lesezugriffe": 993,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 13,
+       "geloest": true,
+       "flips": 534,
+       "lesezugriffe": 17409,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 14,
+       "geloest": true,
+       "flips": 2702,
+       "lesezugriffe": 86305,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 15,
+       "geloest": true,
+       "flips": 2064,
+       "lesezugriffe": 66481,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 16,
+       "geloest": true,
+       "flips": 58,
+       "lesezugriffe": 2169,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 17,
+       "geloest": true,
+       "flips": 2435,
+       "lesezugriffe": 80183,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 18,
+       "geloest": true,
+       "flips": 2501,
+       "lesezugriffe": 82182,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 19,
+       "geloest": true,
+       "flips": 2441,
+       "lesezugriffe": 79425,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 20,
+       "geloest": true,
+       "flips": 224,
+       "lesezugriffe": 7580,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "zufall": {
+  "n100_v4.0": {
+   "n": 100,
+   "verhaeltnis": 4.0,
+   "m": 400,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 37,
+      "lesezugriffe": 6944
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 314,
+       "lesezugriffe": 11043,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 311,
+       "lesezugriffe": 11198,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 811,
+       "lesezugriffe": 28759,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 218,
+      "lesezugriffe": 41631
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2034,
+       "lesezugriffe": 68085,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 983,
+       "lesezugriffe": 32531,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 591,
+       "lesezugriffe": 20354,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 219,
+      "lesezugriffe": 46381
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 4547,
+       "lesezugriffe": 147740,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 479,
+       "lesezugriffe": 16592,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 913,
+       "lesezugriffe": 31325,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 9,
+      "lesezugriffe": 2401
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1393,
+       "lesezugriffe": 46652,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 94,
+       "lesezugriffe": 4010,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 750,
+       "lesezugriffe": 25730,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 41,
+      "lesezugriffe": 6789
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 271,
+       "lesezugriffe": 9953,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 332,
+       "lesezugriffe": 12125,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 772,
+       "lesezugriffe": 25509,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 324,
+      "lesezugriffe": 67512
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 368,
+       "lesezugriffe": 12183,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1897,
+       "lesezugriffe": 63014,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 305,
+       "lesezugriffe": 10803,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 305,
+      "lesezugriffe": 62082
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1659,
+       "lesezugriffe": 55386,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 476,
+       "lesezugriffe": 16861,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 734,
+       "lesezugriffe": 25617,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 706,
+      "lesezugriffe": 207923
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 9820,
+       "lesezugriffe": 324423,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1101,
+       "lesezugriffe": 37599,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 305,
+       "lesezugriffe": 10857,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 374,
+      "lesezugriffe": 85429
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 6115,
+       "lesezugriffe": 196971,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 4646,
+       "lesezugriffe": 149300,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 12753,
+       "lesezugriffe": 403165,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 237,
+      "lesezugriffe": 47853
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 704,
+       "lesezugriffe": 23729,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2561,
+       "lesezugriffe": 83378,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1661,
+       "lesezugriffe": 55837,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 142,
+      "lesezugriffe": 25709
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1798,
+       "lesezugriffe": 64678,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2716,
+       "lesezugriffe": 90898,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 289,
+       "lesezugriffe": 10673,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 38,
+      "lesezugriffe": 6561
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3774,
+       "lesezugriffe": 128908,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 278,
+       "lesezugriffe": 10700,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2420,
+       "lesezugriffe": 83546,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n100_v4.2": {
+   "n": 100,
+   "verhaeltnis": 4.2,
+   "m": 420,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 331,
+      "lesezugriffe": 66886
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 4028,
+       "lesezugriffe": 139171,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 3205,
+       "lesezugriffe": 108520,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2274,
+       "lesezugriffe": 77520,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 104,
+      "lesezugriffe": 19724
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2785,
+       "lesezugriffe": 95614,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2336,
+       "lesezugriffe": 80081,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 868,
+       "lesezugriffe": 29225,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 268,
+      "lesezugriffe": 58144
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2400,
+       "lesezugriffe": 84813,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1714,
+       "lesezugriffe": 60542,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 381,
+       "lesezugriffe": 14230,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 107,
+      "lesezugriffe": 21457
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 709,
+       "lesezugriffe": 25735,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2775,
+       "lesezugriffe": 95467,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 5971,
+       "lesezugriffe": 206513,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 467,
+      "lesezugriffe": 119759
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10358971,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10344140,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10302643,
+       "verletzt_am_ende": 2
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 544,
+      "lesezugriffe": 137623
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10162760,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10138359,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10172944,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 196,
+      "lesezugriffe": 37857
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 321,
+       "lesezugriffe": 12178,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1525,
+       "lesezugriffe": 53723,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2995,
+       "lesezugriffe": 105237,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 689,
+      "lesezugriffe": 194762
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10369773,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10375075,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10329600,
+       "verletzt_am_ende": 1
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 610,
+      "lesezugriffe": 161234
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10060584,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10066343,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10047464,
+       "verletzt_am_ende": 5
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 495,
+      "lesezugriffe": 119527
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10179514,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10192854,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10187189,
+       "verletzt_am_ende": 1
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 215,
+      "lesezugriffe": 39532
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10559786,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10539846,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10536216,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 38,
+      "lesezugriffe": 6875
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 5578,
+       "lesezugriffe": 200738,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 269,
+       "lesezugriffe": 10881,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 626,
+       "lesezugriffe": 23324,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n100_v4.26": {
+   "n": 100,
+   "verhaeltnis": 4.26,
+   "m": 426,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 290,
+      "lesezugriffe": 61814
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 16992,
+       "lesezugriffe": 578361,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2870,
+       "lesezugriffe": 99105,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 9311,
+       "lesezugriffe": 315292,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 269,
+      "lesezugriffe": 56096
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1695,
+       "lesezugriffe": 58657,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1218,
+       "lesezugriffe": 43756,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 240,
+       "lesezugriffe": 8961,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 145,
+      "lesezugriffe": 27161
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1457,
+       "lesezugriffe": 53089,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1255,
+       "lesezugriffe": 45347,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 882,
+       "lesezugriffe": 31610,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 117,
+      "lesezugriffe": 23562
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1082,
+       "lesezugriffe": 38910,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 6335,
+       "lesezugriffe": 219406,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 7603,
+       "lesezugriffe": 264179,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 428,
+      "lesezugriffe": 100474
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10524811,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10506475,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10509634,
+       "verletzt_am_ende": 6
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 446,
+      "lesezugriffe": 102416
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10258143,
+       "verletzt_am_ende": 17
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10261004,
+       "verletzt_am_ende": 10
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10269937,
+       "verletzt_am_ende": 7
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 123,
+      "lesezugriffe": 23165
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3345,
+       "lesezugriffe": 116675,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 468,
+       "lesezugriffe": 17564,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2477,
+       "lesezugriffe": 87562,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 587,
+      "lesezugriffe": 157972
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10608923,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10600207,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10646933,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 658,
+      "lesezugriffe": 181093
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10135691,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10182054,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10168019,
+       "verletzt_am_ende": 5
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 457,
+      "lesezugriffe": 113319
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10388519,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10404970,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10400477,
+       "verletzt_am_ende": 3
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 174,
+      "lesezugriffe": 32450
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10664852,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10697860,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10670451,
+       "verletzt_am_ende": 6
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 32,
+      "lesezugriffe": 5128
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 433,
+       "lesezugriffe": 16917,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1319,
+       "lesezugriffe": 49606,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1857,
+       "lesezugriffe": 68519,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n150_v4.0": {
+   "n": 150,
+   "verhaeltnis": 4.0,
+   "m": 600,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 4123,
+      "lesezugriffe": 3498935
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 8442,
+       "lesezugriffe": 282145,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1972,
+       "lesezugriffe": 65854,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2564,
+       "lesezugriffe": 86587,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 188,
+      "lesezugriffe": 45392
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 642,
+       "lesezugriffe": 22597,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 620,
+       "lesezugriffe": 22191,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 797,
+       "lesezugriffe": 27800,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1897,
+      "lesezugriffe": 969316
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 50157,
+       "lesezugriffe": 1680657,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 858,
+       "lesezugriffe": 29881,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1713,
+       "lesezugriffe": 57402,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 51,
+      "lesezugriffe": 10698
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 689,
+       "lesezugriffe": 25128,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 425,
+       "lesezugriffe": 15929,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 554,
+       "lesezugriffe": 20391,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 264,
+      "lesezugriffe": 70247
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 424,
+       "lesezugriffe": 15558,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 635,
+       "lesezugriffe": 22339,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1643,
+       "lesezugriffe": 57239,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 383,
+      "lesezugriffe": 114092
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2022,
+       "lesezugriffe": 67671,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 743,
+       "lesezugriffe": 24406,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1299,
+       "lesezugriffe": 44501,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1144,
+      "lesezugriffe": 470154
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1431,
+       "lesezugriffe": 49889,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1501,
+       "lesezugriffe": 51645,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6434,
+       "lesezugriffe": 216313,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 551,
+      "lesezugriffe": 170459
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3074,
+       "lesezugriffe": 99698,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 762,
+       "lesezugriffe": 26593,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4939,
+       "lesezugriffe": 160952,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 90,
+      "lesezugriffe": 20360
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1282,
+       "lesezugriffe": 43477,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 3390,
+       "lesezugriffe": 114036,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1743,
+       "lesezugriffe": 57218,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1063,
+      "lesezugriffe": 421901
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2099,
+       "lesezugriffe": 70867,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 3748,
+       "lesezugriffe": 124765,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1273,
+       "lesezugriffe": 42344,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 401,
+      "lesezugriffe": 110117
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 4448,
+       "lesezugriffe": 142746,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1989,
+       "lesezugriffe": 66149,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 7599,
+       "lesezugriffe": 242356,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 670,
+      "lesezugriffe": 204697
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1144,
+       "lesezugriffe": 40022,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 3801,
+       "lesezugriffe": 129354,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1362,
+       "lesezugriffe": 47963,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n150_v4.2": {
+   "n": 150,
+   "verhaeltnis": 4.2,
+   "m": 630,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2422,
+      "lesezugriffe": 1376526
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10437761,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10460485,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10459853,
+       "verletzt_am_ende": 3
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1060,
+      "lesezugriffe": 398240
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2414,
+       "lesezugriffe": 81683,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1949,
+       "lesezugriffe": 69056,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 18045,
+       "lesezugriffe": 617344,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2830,
+      "lesezugriffe": 1840797
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10413120,
+       "verletzt_am_ende": 12
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10361348,
+       "verletzt_am_ende": 15
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10368791,
+       "verletzt_am_ende": 10
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 116,
+      "lesezugriffe": 25817
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1958,
+       "lesezugriffe": 70047,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 362,
+       "lesezugriffe": 14287,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 223,
+       "lesezugriffe": 9499,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 68,
+      "lesezugriffe": 14416
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 472,
+       "lesezugriffe": 17968,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 644,
+       "lesezugriffe": 23570,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 640,
+       "lesezugriffe": 23607,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1137,
+      "lesezugriffe": 467316
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 6434,
+       "lesezugriffe": 226075,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 6755,
+       "lesezugriffe": 233322,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 7962,
+       "lesezugriffe": 270973,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2690,
+      "lesezugriffe": 1647577
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10307199,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10300774,
+       "verletzt_am_ende": 15
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10309012,
+       "verletzt_am_ende": 20
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 2006,
+      "lesezugriffe": 1073309
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 27514,
+       "lesezugriffe": 941793,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 26299,
+       "lesezugriffe": 909701,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 28460,
+       "lesezugriffe": 984116,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 950,
+      "lesezugriffe": 360530
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1351,
+       "lesezugriffe": 46880,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1323,
+       "lesezugriffe": 46902,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1907,
+       "lesezugriffe": 66407,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 3776,
+      "lesezugriffe": 2675720
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10365155,
+       "verletzt_am_ende": 12
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10387673,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10325514,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 5316,
+      "lesezugriffe": 4864005
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10168663,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10170268,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10183380,
+       "verletzt_am_ende": 6
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2466,
+      "lesezugriffe": 1391433
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10618217,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10525616,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10532211,
+       "verletzt_am_ende": 11
+      }
+     ]
+    }
+   ]
+  },
+  "n150_v4.26": {
+   "n": 150,
+   "verhaeltnis": 4.26,
+   "m": 639,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2456,
+      "lesezugriffe": 1405469
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10523038,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10494513,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10512308,
+       "verletzt_am_ende": 14
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2989,
+      "lesezugriffe": 1943848
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10417650,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10410229,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10429412,
+       "verletzt_am_ende": 16
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 1792,
+      "lesezugriffe": 843210
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10556746,
+       "verletzt_am_ende": 14
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10616393,
+       "verletzt_am_ende": 12
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10591957,
+       "verletzt_am_ende": 10
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 141,
+      "lesezugriffe": 33397
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 680,
+       "lesezugriffe": 26036,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 509,
+       "lesezugriffe": 19611,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6246,
+       "lesezugriffe": 224517,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1540,
+      "lesezugriffe": 683700
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 634,
+       "lesezugriffe": 23780,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 598,
+       "lesezugriffe": 23137,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 3010,
+       "lesezugriffe": 106274,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 8029,
+      "lesezugriffe": 9953858
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10390390,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10323556,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10390946,
+       "verletzt_am_ende": 8
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2713,
+      "lesezugriffe": 1693267
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10390596,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10380593,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10371622,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 349,
+      "lesezugriffe": 93687
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 16513,
+       "lesezugriffe": 587040,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 5033,
+       "lesezugriffe": 181023,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 3851,
+       "lesezugriffe": 140574,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1007,
+      "lesezugriffe": 368010
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 5542,
+       "lesezugriffe": 200029,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 11191,
+       "lesezugriffe": 394986,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 3430,
+       "lesezugriffe": 120321,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 4114,
+      "lesezugriffe": 3292476
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10350442,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10377662,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10358251,
+       "verletzt_am_ende": 5
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 5295,
+      "lesezugriffe": 4701411
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10324133,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10339425,
+       "verletzt_am_ende": 10
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10358479,
+       "verletzt_am_ende": 3
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": false,
+      "konflikte": 2082,
+      "lesezugriffe": 1121626
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10675576,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10643566,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10543339,
+       "verletzt_am_ende": 4
+      }
+     ]
+    }
+   ]
+  },
+  "n300_v4.0": {
+   "n": 300,
+   "verhaeltnis": 4.0,
+   "m": 1200,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 5691,
+      "lesezugriffe": 5429266
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 8949,
+       "lesezugriffe": 301829,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2588,
+       "lesezugriffe": 90658,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 14135,
+       "lesezugriffe": 470130,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2065,
+       "lesezugriffe": 71498,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 4198,
+       "lesezugriffe": 142125,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 3715,
+       "lesezugriffe": 124743,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 5514,
+      "lesezugriffe": 5165379
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 35281,
+       "lesezugriffe": 1165656,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 41220,
+       "lesezugriffe": 1362434,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 17548,
+       "lesezugriffe": 592402,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 14793,
+       "lesezugriffe": 490684,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 88611,
+       "lesezugriffe": 2915718,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 52307,
+       "lesezugriffe": 1740157,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 49248707
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 89831,
+       "lesezugriffe": 3011246,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 9958746,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 231884,
+       "lesezugriffe": 7725074,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 76568,
+       "lesezugriffe": 2538750,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 88399,
+       "lesezugriffe": 2951898,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 41425,
+       "lesezugriffe": 1392850,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48788388
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 21297,
+       "lesezugriffe": 694009,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 15738,
+       "lesezugriffe": 518138,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 26061,
+       "lesezugriffe": 855549,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 14514,
+       "lesezugriffe": 482475,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 18007,
+       "lesezugriffe": 594342,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6055,
+       "lesezugriffe": 202285,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48106741
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2198,
+       "lesezugriffe": 76099,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1918,
+       "lesezugriffe": 65016,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4018,
+       "lesezugriffe": 136210,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1131,
+       "lesezugriffe": 41083,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2529,
+       "lesezugriffe": 86393,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1818,
+       "lesezugriffe": 62496,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1747,
+      "lesezugriffe": 980977
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2131,
+       "lesezugriffe": 75634,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1810,
+       "lesezugriffe": 62713,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1047,
+       "lesezugriffe": 38360,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3706,
+       "lesezugriffe": 131462,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1323,
+       "lesezugriffe": 47496,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4315,
+       "lesezugriffe": 147315,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 4800,
+      "lesezugriffe": 4509853
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1555,
+       "lesezugriffe": 56159,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1264,
+       "lesezugriffe": 45694,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 991,
+       "lesezugriffe": 34432,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 430,
+       "lesezugriffe": 17763,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 3434,
+       "lesezugriffe": 121997,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1106,
+       "lesezugriffe": 40070,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 4615,
+      "lesezugriffe": 3963557
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1234,
+       "lesezugriffe": 43460,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 5093,
+       "lesezugriffe": 169187,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1656,
+       "lesezugriffe": 58258,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2552,
+       "lesezugriffe": 87598,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 5776,
+       "lesezugriffe": 196188,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4786,
+       "lesezugriffe": 164426,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48415736
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 5753,
+       "lesezugriffe": 195851,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 14812,
+       "lesezugriffe": 509903,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6489,
+       "lesezugriffe": 224154,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 7911,
+       "lesezugriffe": 265090,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 22919,
+       "lesezugriffe": 776535,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 12793,
+       "lesezugriffe": 439822,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 1709,
+      "lesezugriffe": 928969
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 1399,
+       "lesezugriffe": 49772,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 547,
+       "lesezugriffe": 21622,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1943,
+       "lesezugriffe": 67570,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 9440,
+       "lesezugriffe": 322231,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1204,
+       "lesezugriffe": 42258,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4022,
+       "lesezugriffe": 138349,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 19699,
+      "lesezugriffe": 48120044
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 8380,
+       "lesezugriffe": 285613,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2233,
+       "lesezugriffe": 74900,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 9205,
+       "lesezugriffe": 305705,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 4048,
+       "lesezugriffe": 136529,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 10684,
+       "lesezugriffe": 358282,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 9998,
+       "lesezugriffe": 339856,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48949819
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 4711,
+       "lesezugriffe": 156699,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 1642,
+       "lesezugriffe": 56322,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 1688,
+       "lesezugriffe": 58719,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 8049,
+       "lesezugriffe": 270722,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 6277,
+       "lesezugriffe": 210758,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 19217,
+       "lesezugriffe": 633977,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n300_v4.2": {
+   "n": 300,
+   "verhaeltnis": 4.2,
+   "m": 1260,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48062849
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 18656,
+       "lesezugriffe": 650882,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 14547,
+       "lesezugriffe": 504850,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 17382,
+       "lesezugriffe": 599293,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 11337,
+       "lesezugriffe": 391854,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 22421,
+       "lesezugriffe": 776407,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 12096,
+       "lesezugriffe": 421371,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 49040709
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10297105,
+       "verletzt_am_ende": 15
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10364240,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10291124,
+       "verletzt_am_ende": 2
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10321544,
+       "verletzt_am_ende": 20
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10332358,
+       "verletzt_am_ende": 13
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10390692,
+       "verletzt_am_ende": 2
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 50026258
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10349687,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10392233,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10327109,
+       "verletzt_am_ende": 10
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10394942,
+       "verletzt_am_ende": 21
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10462496,
+       "verletzt_am_ende": 25
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10444752,
+       "verletzt_am_ende": 11
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 47874534
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 800,
+       "lesezugriffe": 30613,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 96441,
+       "lesezugriffe": 3336572,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 21028,
+       "lesezugriffe": 721031,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 38940,
+       "lesezugriffe": 1345733,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 22533,
+       "lesezugriffe": 776872,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 12104,
+       "lesezugriffe": 422692,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 47387974
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 13569,
+       "lesezugriffe": 476357,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2827,
+       "lesezugriffe": 100224,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 3616,
+       "lesezugriffe": 129017,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 9196,
+       "lesezugriffe": 323050,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 14655,
+       "lesezugriffe": 512946,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 41263,
+       "lesezugriffe": 1436088,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 46531696
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3993,
+       "lesezugriffe": 142413,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 5221,
+       "lesezugriffe": 184815,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2524,
+       "lesezugriffe": 93354,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3852,
+       "lesezugriffe": 139455,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 4030,
+       "lesezugriffe": 146471,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 20018,
+       "lesezugriffe": 704040,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 15252,
+      "lesezugriffe": 29671871
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 11716,
+       "lesezugriffe": 410128,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 5640,
+       "lesezugriffe": 200418,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4738,
+       "lesezugriffe": 168832,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 6395,
+       "lesezugriffe": 226408,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2848,
+       "lesezugriffe": 98040,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2130,
+       "lesezugriffe": 76280,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 49904625
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10739349,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10667055,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10712568,
+       "verletzt_am_ende": 6
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10637842,
+       "verletzt_am_ende": 16
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10694007,
+       "verletzt_am_ende": 12
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10632068,
+       "verletzt_am_ende": 2
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 49276383
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10298124,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10396853,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 27426,
+       "lesezugriffe": 969426,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 197386,
+       "lesezugriffe": 6828020,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10490238,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10422400,
+       "verletzt_am_ende": 13
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 47834892
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 12239,
+       "lesezugriffe": 427550,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 10523,
+       "lesezugriffe": 374028,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 3378,
+       "lesezugriffe": 122078,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2913,
+       "lesezugriffe": 103036,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 7926,
+       "lesezugriffe": 280559,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6793,
+       "lesezugriffe": 235884,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 49798452
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 123784,
+       "lesezugriffe": 4262822,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 35032,
+       "lesezugriffe": 1224270,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 232209,
+       "lesezugriffe": 8062018,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 42252,
+       "lesezugriffe": 1472797,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 161438,
+       "lesezugriffe": 5569359,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 34305,
+       "lesezugriffe": 1194384,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 49886070
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 7905,
+       "lesezugriffe": 276394,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 29841,
+       "lesezugriffe": 1016627,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 20567,
+       "lesezugriffe": 705702,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 24999,
+       "lesezugriffe": 871879,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 38949,
+       "lesezugriffe": 1360210,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4266,
+       "lesezugriffe": 151966,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n300_v4.26": {
+   "n": 300,
+   "verhaeltnis": 4.26,
+   "m": 1278,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 50929924
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 189319,
+       "lesezugriffe": 6595525,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 36447,
+       "lesezugriffe": 1295991,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 29632,
+       "lesezugriffe": 1037209,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 4607,
+       "lesezugriffe": 162685,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 160846,
+       "lesezugriffe": 5626236,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 106132,
+       "lesezugriffe": 3721266,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 52080212
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10448354,
+       "verletzt_am_ende": 10
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10479742,
+       "verletzt_am_ende": 16
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10485808,
+       "verletzt_am_ende": 2
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10473489,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10471825,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10475674,
+       "verletzt_am_ende": 12
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 51336694
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10591267,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10547320,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10570542,
+       "verletzt_am_ende": 10
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10578732,
+       "verletzt_am_ende": 22
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10614862,
+       "verletzt_am_ende": 14
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10577137,
+       "verletzt_am_ende": 7
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48033982
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 52615,
+       "lesezugriffe": 1829040,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 33533,
+       "lesezugriffe": 1167366,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 25404,
+       "lesezugriffe": 882102,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 24443,
+       "lesezugriffe": 846661,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 38888,
+       "lesezugriffe": 1352999,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 33151,
+       "lesezugriffe": 1153918,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 50696304
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10462426,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10427293,
+       "verletzt_am_ende": 10
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10446069,
+       "verletzt_am_ende": 3
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10461219,
+       "verletzt_am_ende": 6
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10475308,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10450672,
+       "verletzt_am_ende": 9
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48972480
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3182,
+       "lesezugriffe": 115830,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2489,
+       "lesezugriffe": 90447,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 2980,
+       "lesezugriffe": 109080,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 8327,
+       "lesezugriffe": 300336,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 6540,
+       "lesezugriffe": 234159,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 14157,
+       "lesezugriffe": 507315,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": true,
+      "konflikte": 19206,
+      "lesezugriffe": 44661694
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 3130,
+       "lesezugriffe": 115361,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 5320,
+       "lesezugriffe": 197118,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 950,
+       "lesezugriffe": 36552,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 2695,
+       "lesezugriffe": 99623,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2892,
+       "lesezugriffe": 102596,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 5330,
+       "lesezugriffe": 196533,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 51503592
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10928606,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10845892,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10953725,
+       "verletzt_am_ende": 11
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10821578,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10816581,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10844441,
+       "verletzt_am_ende": 12
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 50693886
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10536413,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10572960,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10528930,
+       "verletzt_am_ende": 6
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10565369,
+       "verletzt_am_ende": 18
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10553162,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10587631,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 47323406
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 16121,
+       "lesezugriffe": 575170,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 12557,
+       "lesezugriffe": 444490,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 26570,
+       "lesezugriffe": 937812,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 32158,
+       "lesezugriffe": 1136459,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 38741,
+       "lesezugriffe": 1363752,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 77795,
+       "lesezugriffe": 2720652,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 48785339
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10513119,
+       "verletzt_am_ende": 3
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10538225,
+       "verletzt_am_ende": 14
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10516133,
+       "verletzt_am_ende": 14
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10545931,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10505767,
+       "verletzt_am_ende": 10
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10527447,
+       "verletzt_am_ende": 16
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 49464226
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 57277,
+       "lesezugriffe": 1983086,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 8793,
+       "lesezugriffe": 304317,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 78810,
+       "lesezugriffe": 2736889,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 15790,
+       "lesezugriffe": 550066,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 77954,
+       "lesezugriffe": 2694954,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 85322,
+       "lesezugriffe": 2931954,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n600_v4.0": {
+   "n": 600,
+   "verhaeltnis": 4.0,
+   "m": 2400,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41620612
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10062714,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 63164,
+       "lesezugriffe": 2085474,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 133570,
+       "lesezugriffe": 4402372,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 9919024,
+       "verletzt_am_ende": 31
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 9913558,
+       "verletzt_am_ende": 14
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 154903,
+       "lesezugriffe": 5141077,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41827170
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 6491,
+       "lesezugriffe": 218983,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 72308,
+       "lesezugriffe": 2383176,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6652,
+       "lesezugriffe": 223872,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 12098,
+       "lesezugriffe": 398087,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 34873,
+       "lesezugriffe": 1161674,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 29306,
+       "lesezugriffe": 959210,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41156846
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 19966,
+       "lesezugriffe": 675420,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 31855,
+       "lesezugriffe": 1056598,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 10025,
+       "lesezugriffe": 334277,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 14089,
+       "lesezugriffe": 476905,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 4907,
+       "lesezugriffe": 168414,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 16581,
+       "lesezugriffe": 557124,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40464331
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 38935,
+       "lesezugriffe": 1313704,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 13749,
+       "lesezugriffe": 466375,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 28513,
+       "lesezugriffe": 946576,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 44405,
+       "lesezugriffe": 1494092,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 7841,
+       "lesezugriffe": 272753,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 34381,
+       "lesezugriffe": 1150676,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 42167347
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 115043,
+       "lesezugriffe": 3837398,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 65955,
+       "lesezugriffe": 2235106,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 20230,
+       "lesezugriffe": 683300,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 43933,
+       "lesezugriffe": 1470261,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 60151,
+       "lesezugriffe": 2005400,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 125364,
+       "lesezugriffe": 4179756,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41590831
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 7565,
+       "lesezugriffe": 265473,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 8221,
+       "lesezugriffe": 284996,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 17517,
+       "lesezugriffe": 596944,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 13291,
+       "lesezugriffe": 456392,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 29331,
+       "lesezugriffe": 1010641,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 9923,
+       "lesezugriffe": 341099,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41607443
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 110092,
+       "lesezugriffe": 3616325,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 60330,
+       "lesezugriffe": 1983965,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 8374,
+       "lesezugriffe": 281265,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 48798,
+       "lesezugriffe": 1624256,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 31784,
+       "lesezugriffe": 1060949,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6992,
+       "lesezugriffe": 238711,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41296094
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 4240,
+       "lesezugriffe": 149576,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 6173,
+       "lesezugriffe": 210942,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6493,
+       "lesezugriffe": 224378,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 25857,
+       "lesezugriffe": 875757,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 3229,
+       "lesezugriffe": 113965,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 6593,
+       "lesezugriffe": 226875,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41090983
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 9090,
+       "lesezugriffe": 306811,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 2785,
+       "lesezugriffe": 97783,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 15316,
+       "lesezugriffe": 517034,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 7550,
+       "lesezugriffe": 256455,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 11490,
+       "lesezugriffe": 388187,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 5025,
+       "lesezugriffe": 171257,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 42189380
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 11095,
+       "lesezugriffe": 383663,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 9671,
+       "lesezugriffe": 333612,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 4897,
+       "lesezugriffe": 173146,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 9461,
+       "lesezugriffe": 321388,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 20733,
+       "lesezugriffe": 712973,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 21020,
+       "lesezugriffe": 727503,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 42208541
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 87731,
+       "lesezugriffe": 2937348,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 8845,
+       "lesezugriffe": 310510,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 12676,
+       "lesezugriffe": 424326,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 27533,
+       "lesezugriffe": 925778,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 18813,
+       "lesezugriffe": 630360,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 14561,
+       "lesezugriffe": 491949,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 39955178
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 6716,
+       "lesezugriffe": 225311,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 16364,
+       "lesezugriffe": 554584,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 9519,
+       "lesezugriffe": 330585,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 10075,
+       "lesezugriffe": 340101,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 11880,
+       "lesezugriffe": 400545,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 7791,
+       "lesezugriffe": 266297,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n600_v4.2": {
+   "n": 600,
+   "verhaeltnis": 4.2,
+   "m": 2520,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41509278
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10399086,
+       "verletzt_am_ende": 18
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10461947,
+       "verletzt_am_ende": 11
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10450656,
+       "verletzt_am_ende": 5
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10368056,
+       "verletzt_am_ende": 21
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10397478,
+       "verletzt_am_ende": 26
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10369250,
+       "verletzt_am_ende": 19
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 42576408
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 142480,
+       "lesezugriffe": 4903954,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 220939,
+       "lesezugriffe": 7598027,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10282322,
+       "verletzt_am_ende": 4
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10382052,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10338806,
+       "verletzt_am_ende": 13
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 251594,
+       "lesezugriffe": 8531211,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41006131
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 133689,
+       "lesezugriffe": 4605389,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 20110,
+       "lesezugriffe": 700536,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 164746,
+       "lesezugriffe": 5705275,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 179692,
+       "lesezugriffe": 6190150,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 83693,
+       "lesezugriffe": 2892932,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 47924,
+       "lesezugriffe": 1637594,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40766517
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10453272,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 141315,
+       "lesezugriffe": 4976882,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 36675,
+       "lesezugriffe": 1269163,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 91687,
+       "lesezugriffe": 3193205,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10459771,
+       "verletzt_am_ende": 16
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10453995,
+       "verletzt_am_ende": 5
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41897131
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10366984,
+       "verletzt_am_ende": 17
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10403321,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10331211,
+       "verletzt_am_ende": 10
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10398567,
+       "verletzt_am_ende": 23
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10395258,
+       "verletzt_am_ende": 16
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10459792,
+       "verletzt_am_ende": 20
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40594053
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10581590,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 163552,
+       "lesezugriffe": 5744132,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10656800,
+       "verletzt_am_ende": 5
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 64805,
+       "lesezugriffe": 2298819,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 234860,
+       "lesezugriffe": 8175655,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 56412,
+       "lesezugriffe": 1989354,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40856758
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 50473,
+       "lesezugriffe": 1757078,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10390013,
+       "verletzt_am_ende": 11
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10354566,
+       "verletzt_am_ende": 2
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10334768,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10357934,
+       "verletzt_am_ende": 18
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10310964,
+       "verletzt_am_ende": 17
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41109358
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 40883,
+       "lesezugriffe": 1428986,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 150801,
+       "lesezugriffe": 5246744,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 45880,
+       "lesezugriffe": 1597928,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 25719,
+       "lesezugriffe": 908198,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 10250,
+       "lesezugriffe": 364537,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 100830,
+       "lesezugriffe": 3534770,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40890438
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 13181,
+       "lesezugriffe": 461520,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 15809,
+       "lesezugriffe": 553983,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 50588,
+       "lesezugriffe": 1763568,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 73236,
+       "lesezugriffe": 2560851,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 13974,
+       "lesezugriffe": 484196,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 22163,
+       "lesezugriffe": 771543,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40596268
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 35347,
+       "lesezugriffe": 1248441,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 102939,
+       "lesezugriffe": 3658988,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 194924,
+       "lesezugriffe": 6851823,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 210201,
+       "lesezugriffe": 7431020,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 274698,
+       "lesezugriffe": 9699084,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 197030,
+       "lesezugriffe": 7010730,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40080787
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10406797,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10468717,
+       "verletzt_am_ende": 15
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10339004,
+       "verletzt_am_ende": 14
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10390017,
+       "verletzt_am_ende": 17
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10433577,
+       "verletzt_am_ende": 11
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10433857,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41826161
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 29718,
+       "lesezugriffe": 1036229,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 20341,
+       "lesezugriffe": 710416,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 51459,
+       "lesezugriffe": 1785621,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 57874,
+       "lesezugriffe": 2007183,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 32118,
+       "lesezugriffe": 1117927,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 70037,
+       "lesezugriffe": 2450914,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  },
+  "n600_v4.26": {
+   "n": 600,
+   "verhaeltnis": 4.26,
+   "m": 2556,
+   "formeln": [
+    {
+     "seed": 8000,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40777279
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10627212,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10484076,
+       "verletzt_am_ende": 31
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10619312,
+       "verletzt_am_ende": 28
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10583864,
+       "verletzt_am_ende": 29
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10550061,
+       "verletzt_am_ende": 34
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10599362,
+       "verletzt_am_ende": 39
+      }
+     ]
+    },
+    {
+     "seed": 8001,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41224883
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10544894,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10448667,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10406740,
+       "verletzt_am_ende": 10
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10466163,
+       "verletzt_am_ende": 11
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10497723,
+       "verletzt_am_ende": 14
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10413015,
+       "verletzt_am_ende": 9
+      }
+     ]
+    },
+    {
+     "seed": 8002,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 39733529
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 253279,
+       "lesezugriffe": 8806386,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10745859,
+       "verletzt_am_ende": 1
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10346334,
+       "verletzt_am_ende": 5
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10502083,
+       "verletzt_am_ende": 16
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 201129,
+       "lesezugriffe": 7039745,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10482431,
+       "verletzt_am_ende": 4
+      }
+     ]
+    },
+    {
+     "seed": 8003,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41314891
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10577327,
+       "verletzt_am_ende": 2
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10566180,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10530898,
+       "verletzt_am_ende": 18
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10597356,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10558443,
+       "verletzt_am_ende": 8
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10584282,
+       "verletzt_am_ende": 12
+      }
+     ]
+    },
+    {
+     "seed": 8004,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 42128724
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10474418,
+       "verletzt_am_ende": 11
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10461333,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10362280,
+       "verletzt_am_ende": 12
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10458565,
+       "verletzt_am_ende": 33
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10439441,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10468449,
+       "verletzt_am_ende": 30
+      }
+     ]
+    },
+    {
+     "seed": 8005,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41617181
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 98563,
+       "lesezugriffe": 3468738,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10754625,
+       "verletzt_am_ende": 4
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 191728,
+       "lesezugriffe": 6802943,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10638620,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10644362,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10700983,
+       "verletzt_am_ende": 6
+      }
+     ]
+    },
+    {
+     "seed": 8006,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41364647
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10475862,
+       "verletzt_am_ende": 14
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10402111,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10409272,
+       "verletzt_am_ende": 13
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10520224,
+       "verletzt_am_ende": 18
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10502788,
+       "verletzt_am_ende": 21
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10490743,
+       "verletzt_am_ende": 13
+      }
+     ]
+    },
+    {
+     "seed": 8007,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41190806
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 222685,
+       "lesezugriffe": 7751803,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 110419,
+       "lesezugriffe": 3931812,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10585154,
+       "verletzt_am_ende": 6
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 72968,
+       "lesezugriffe": 2566389,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 28201,
+       "lesezugriffe": 1003325,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 109887,
+       "lesezugriffe": 3908171,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8008,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 41064392
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 155603,
+       "lesezugriffe": 5465165,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 110282,
+       "lesezugriffe": 3866490,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 74806,
+       "lesezugriffe": 2631094,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 46875,
+       "lesezugriffe": 1664204,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 56249,
+       "lesezugriffe": 1993812,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 33690,
+       "lesezugriffe": 1196165,
+       "verletzt_am_ende": 0
+      }
+     ]
+    },
+    {
+     "seed": 8009,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 42587758
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10755071,
+       "verletzt_am_ende": 9
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 44233,
+       "lesezugriffe": 1577836,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10778543,
+       "verletzt_am_ende": 5
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 135484,
+       "lesezugriffe": 4831193,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10653945,
+       "verletzt_am_ende": 7
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10772832,
+       "verletzt_am_ende": 11
+      }
+     ]
+    },
+    {
+     "seed": 8010,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40592883
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10531026,
+       "verletzt_am_ende": 5
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10571141,
+       "verletzt_am_ende": 20
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10471267,
+       "verletzt_am_ende": 7
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10521421,
+       "verletzt_am_ende": 23
+      },
+      {
+       "seed": 2,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10548501,
+       "verletzt_am_ende": 23
+      },
+      {
+       "seed": 3,
+       "geloest": false,
+       "flips": 300000,
+       "lesezugriffe": 10538277,
+       "verletzt_am_ende": 11
+      }
+     ]
+    },
+    {
+     "seed": 8011,
+     "cdcl": {
+      "antwort": null,
+      "konflikte": 20000,
+      "lesezugriffe": 40210403
+     },
+     "probsat": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 73028,
+       "lesezugriffe": 2566910,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 49112,
+       "lesezugriffe": 1731041,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 49162,
+       "lesezugriffe": 1739542,
+       "verletzt_am_ende": 0
+      }
+     ],
+     "probsat_cb_alt": [
+      {
+       "seed": 1,
+       "geloest": true,
+       "flips": 34809,
+       "lesezugriffe": 1231542,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 2,
+       "geloest": true,
+       "flips": 91349,
+       "lesezugriffe": 3230042,
+       "verletzt_am_ende": 0
+      },
+      {
+       "seed": 3,
+       "geloest": true,
+       "flips": 28514,
+       "lesezugriffe": 1012043,
+       "verletzt_am_ende": 0
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
